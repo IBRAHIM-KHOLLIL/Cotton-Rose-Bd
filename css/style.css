@@ -147,6 +147,7 @@ header .mainNavbar .navbar{
 
 .carousel-caption{
     text-align: start;
+    padding-bottom: 12.7em;
 }
 .carousel-control-prev{
     background-image: none;
