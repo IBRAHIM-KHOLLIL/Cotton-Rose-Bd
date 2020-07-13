@@ -1,0 +1,766 @@
+/*------------------- Home Page ------------------*/
+
+/*Nvabar top*/
+.navbar-top{
+    background-color: #EA3A3C ;
+    height: 45px;
+}
+.icon{
+    float: left;
+}
+.navbar-top .container{
+    height: 45px;
+}
+.top-bar{
+    padding-top: 8px;
+}
+.top-bar .mail-info{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+/*End Of Nvabar top*/
+
+/*Navbar*/
+
+header{
+    background-color: #333;
+    height: 110px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+header .mainNavbar{
+    background-color: #333;
+    height: 110px;
+}
+header .mainNavbar .main-navbar{
+    background-color: #333;
+    height: 110px;
+}
+header .mainNavbar .navbar{
+    background-color: #333;
+    height: 110px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: white;
+    font-size: 14px;
+}
+.main-navbar .navbar .navbar-nav .active>.nav-link{
+    color: #EA3A3C;
+}
+.dropdown-menu .dropdown-item.active{
+    background-color: #EA3A3C;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #EA3A3C;
+    font-weight: lighter;
+}
+.nav-item .dropdown-menu .dropdown-item:hover{
+        color: #EA3A3C;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+.brand .navbar-brand img{
+    width: 80px;
+}
+.brand .navbar-brand {
+    font-size: 20px;
+    font-weight: 500;
+    color: #86c724;
+}
+.brand .navbar-brand:hover{
+    color: #EA3A3C;
+}
+
+@media(max-width:1200px) and (min-width:992px){
+    .brand .navbar-brand{
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .brand .navabr-brand img{
+        width: 60px;
+    }
+    .navbar-nav .nav-item .nav-link{
+        font-size: 11px;
+        right: 0;
+    }
+    
+}
+@media(max-width:991px){
+    .main-navbar .navbar .navbar-nav{
+        background-color: white;
+    }
+    .navbar-nav .nav-item .nav-link{
+        text-align: right;
+        padding-right: 10px;
+        color: black;
+    }
+    .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+        text-align: right;
+    }
+    nav.navbar{
+        height: 200px;
+    }
+}
+
+@media(max-width:565px){
+    .mainNavbar .brand .navabr-brand{
+        font-size: 10px;
+        font-weight: 300px;
+    }
+    .mainNavbar .brand .navabr-brand img{
+        width: 40px;
+    }
+}
+
+/*End Of Navbar*/
+
+/*Carousel Bar*/
+
+
+#carouselExampleIndicators{
+    height: 78vh;
+}
+.carousel-inner{
+    height: 78vh;
+}
+.carousel-item{
+    height: 78vh;
+    border-top: 1px solid white;
+}
+@media(max-width:992px){
+    #carouselExampleIndicators{
+    height: auto;
+    }
+    .carousel-inner{
+    height: auto;
+    }
+    .carousel-item{
+    height: auto;
+    border-top: 1px solid white;
+    }
+}
+
+
+.carousel-caption{
+    text-align: start;
+}
+.carousel-control-prev{
+    background-image: none;
+}
+.carousel-control-next{
+    background-image: none;
+}
+.carousel-item .animation{
+    animation-delay: .5s;
+    animation-duration: 3s;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px #333;
+}
+.carousel-item .animation:nth-child(2){
+    color: #86c724;
+}
+
+
+
+
+/*Carousel Bar*/
+
+/*About-Us*/
+.about-us h1{
+    font-family: 'Roboto', sans-serif;
+}
+.about-us .details h5{
+    font-family: 'Roboto', sans-serif;
+}
+.about-us{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.about-us .details{
+    background-color: rgba(119,119,119,.2);
+    padding: 20px;
+}
+.details .text-left a{
+    font-weight: bold;
+}
+
+/*About-Us*/
+
+/*Product section*/
+
+.home-product-gallary{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.home-product-image{
+    position: relative;
+    height: auto;
+    width: 90%;
+    margin: auto;
+    padding: 45px 0;
+   display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 2vmin; 
+
+}
+.home-product-image .card{
+    height: 250px;
+}
+.home-product-image .card img{
+    height: 250px;
+}
+.img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+@media (max-width: 768px){
+     .home-product-image{
+    display: block;
+         }
+     .img{
+        display: block;
+        width: 60%;
+        height: 60%;
+        margin: auto;
+    }
+}
+.product-section-tile h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*End Of Product section*/
+
+/*Brand Section*/
+
+
+/*End Of Brand Section*/
+.brand-section-tile{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*Footer*/
+
+.panel-footer{
+    background-color: #333;
+    height: 87px;
+    overflow: hidden!important;
+}
+footer .company{
+    padding: 10px;
+    float: left;
+    color: white;
+    font-weight: 200;
+}
+footer .developer{
+    padding: 10px;
+    float: right;
+    color: white;
+    font-weight: 200;
+}
+footer .developer .text-left .developer-site{
+    text-decoration: none;
+    color: #EA3A3C;
+}
+@media(max-width:768px){
+    .panel-footer{
+        height: 102px;
+    }
+    footer .company{
+    float: left;
+    color: white;
+    font-size: 13px
+    font-weight: 150;
+    }
+    footer .developer{
+    float: right;
+    color: white;
+    font-size: 13px;
+    font-weight: 150;
+    }
+}
+@media(max-width:577px){
+    .panel-footer{
+        height: 102.4px;
+    }
+    footer .company{
+    float: left;
+    color: white;
+    font-size: 11px
+    font-weight: 120;
+    }
+    footer .developer{
+    float: right;
+    color: white;
+    font-size: 11px;
+    font-weight: 120;
+    }
+}
+
+
+/*End Of Footer*/
+
+/*---------------- End Of Home Page -------------*/
+
+
+/*------------------About Us Page---------------*/
+
+/*About Tile*/
+
+.about-tile{
+    background-color: #333;
+    color: white;
+    height: 80px;
+    border-radius: 0;
+    padding-top: 0;
+}
+.why-chose-us{
+    background-color: white;
+}
+.why-us-tile .card{
+    max-height: 180px;
+    border: 0;
+}
+.why-us-tile .card-img-top{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+.why-us-tile .card-text{
+    text-transform: uppercase;
+}
+.why-us-tile .card-text:hover{
+    color: orange;
+}
+.why-us-tile-end .card-img-top{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+.why-us-tile-end .card{
+    max-height: 1000px;
+    height: 700px;
+}
+.why-us-tile-end .card-body{
+    overflow: hidden;
+}
+
+@media(max-width:767px){
+    .why-us-tile-end .card{
+        height: 400px;
+    }
+    .why-us-tile .card{
+        border: 1px dotted orange;
+    }
+}
+.jumbotron .container .jumbotron-heading{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*End Of About Tile*/
+
+
+/*--------------End Of About Us Page-------------*/
+
+
+/*---------------Quality Assurence Page-----------*/
+
+.quality-assurence-tile{
+    background-color: #333;
+    color: white;
+    height: 80px;
+    border-radius: 0;
+    padding-top: 0;
+}
+.quality-assurence-info .quality-assurence-info-image{
+    height: 100%;
+    width: 100%;
+}
+.quality-assurence-gallary-image .card-img-top{
+    height: 40px;
+    width: 40px;
+    margin: auto;
+}
+
+@media(min-width:992px){
+    .quality-assurence-gallary .quality-assurence-gallary-image .card{
+    height: 270px;
+}
+}
+@media(max-width:1200px) and (min-width:993px){
+    .quality-assurence-gallary .quality-assurence-gallary-image .card{
+    height: 310px;
+}
+}
+@media(max-width:992px) and (min-width:767px) {
+    .quality-assurence-gallary .quality-assurence-gallary-image .card{
+    height: 470px;
+}
+}
+
+
+/*----------End Of Quality Assurence Page---------*/
+
+
+
+/*-----------------Trousers-----------------------*/
+.trouser-tile{
+    display: inline;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+.trouser-tile h3{
+    background-color: #333;
+    color: white;
+    padding-bottom: 40px;
+}
+.
+/**/
+
+/*----------------End Of Trousers-----------------*/
+
+/*-------------------T-Shirt----------------------*/
+.t-shirt-tile{
+    display: inline;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+.t-shirt-tile h3{
+    background-color: #333;
+    color: white;
+    padding-bottom: 40px;
+}
+
+/*-----------------End Of T-Shirt-----------------*/
+
+/*------------------Polo Shirt--------------------*/
+.polo-shirt-tile{
+    display: inline;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+.polo-shirt-tile h3{
+    background-color: #333;
+    color: white;
+    padding-bottom: 40px;
+}
+/*----------------End Of polo Shirt---------------*/
+
+/*-------------------Tank Top---------------------*/
+.tank-top-tile{
+    display: inline;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+.tank-top-tile h3{
+    background-color: #333;
+    color: white;
+    padding-bottom: 40px;
+}
+/*-----------------End Of Tank TOp----------------*/
+
+/*----------------------Kids---------------------*/
+.kids-tile{
+    display: inline;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+.kids-tile h3{
+    background-color: #333;
+    color: white;
+    padding-bottom: 40px;
+}
+/*-------------------End Of Kids---------------*/
+/*----------------------Hoodie--------------------*/
+.hoodie-tile{
+    display: inline;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+.hoodie-tile h3{
+    background-color: #333;
+    color: white;
+}
+/*-------------------End Of Kids-----------------*/
+/*-----------------Woven Shirt--------------------*/
+.woven-shirt-tile{
+    display: inline;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+.woven-shirt-tile h3{
+    background-color: #333;
+    color: white;
+}
+.woven-shirt-gallary .woven-shirt-image .card{
+    width: 250px;
+    height: 340px;
+}
+.woven-shirt-gallary .woven-shirt-image .card img{
+    width: 100%;
+    height: 340px;
+}
+
+/*----------------End OfWoven Shirt---------------*/
+/*-----------------Sports Wear--------------------*/
+.sports-wear-tile{
+    display: inline;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+.sports-wear-tile h3{
+    background-color: #333;
+    color: white;
+}
+/*---------------End Of Sports Wear---------------*/
+/*-----------------Uniform Wear--------------------*/
+.uniform-wear-tile{
+    display: inline;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+.uniform-wear-tile h3{
+    background-color: #333;
+    color: white;
+}
+.uniform-wear-gallary .uniform-wear-image .card{
+    width: 250px;
+    height: 340px;
+}
+.uniform-wear-gallary .uniform-wear-image .card img{
+    width: 100%;
+    height: 340px;
+}
+
+
+/*--------------End Of uniform Wear---------------*/
+/*-------------------Organic---------------------*/
+.organic-tile{
+    display: inline;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+.organic-tile h3{
+    background-color: #333;
+    color: white;
+}
+/*-----------------End Of organic----------------*/
+/*-------------------Sweatwear--------------------*/
+.sweatwear-tile{
+    display: inline;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+.sweatwear-tile h3{
+    background-color: #333;
+    color: white;
+}
+/*-----------------End Of Sweatwear---------------*/
+/*---------------Home Textile-----------------*/
+.home-textile-tile{
+    display: inline;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+.home-textile-tile h3{
+    background-color: #333;
+    color: white;
+}
+.home-textile-gallary .home-textile-image .card{
+    width: 250px;
+    height: 340px;
+}
+.home-textile-gallary .home-textile-image .card img{
+    width: 100%;
+    height: 340px;
+}
+
+
+/*---------------End Of Home Textile------------*/
+/*------------------Lingeries-----------------*/
+.lingeries-tile{
+    display: inline;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+.lingeries-tile h3{
+    background-color: #333;
+    color: white;
+}
+.lingeries-gallary .lingeries-image .card{
+    width: 250px;
+    height: 340px;
+}
+.lingeries-gallary .lingeries-image .card img{
+    width: 100%;
+    height: 340px;
+}
+
+
+/*---------------End Of Lingeries------------*/
+/*---------------------jacket-----------------*/
+.jacket-tile{
+    display: inline;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+.jacket-tile h3{
+    background-color: #333;
+    color: white;
+}
+/*-------------------End Of Jacket--------------*/
+/*---------------------Leather-----------------*/
+.leather-tile{
+    display: inline;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+.leather-tile h3{
+    background-color: #333;
+    color: white;
+}
+.leather-gallary .leather-image .card{
+    height: 300px;
+}
+.leather-gallary .leather-image .card img{
+    height: 300px;
+}
+
+/*-------------------End Of Leather--------------*/
+/*---------------------Shoe----------------------*/
+.shoe-tile{
+    display: inline;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+.shoe-tile h3{
+    background-color: #333;
+    color: white;
+}
+.shoe-gallary .shoe-image .card img{
+    height: 250px;
+}
+
+/*-------------------End Of Shoe-----------------*/
+/*--------------------Handicraft------------------*/
+.handicraft-tile{
+    display: inline;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+.handicraft-tile h3{
+    background-color: #333;
+    color: white;
+}
+.handicraft-gallary .handicraft-image .card img{
+    height: 250px;
+}
+
+/*-----------------End Of Handicraft--------------*/
+/*----------------------Ceramic-------------------*/
+.ceramic-tile{
+    display: inline;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+.ceramic-tile h3{
+    background-color: #333;
+    color: white;
+}
+.ceramic-gallary .ceramic-image .card img{
+    height: 250px;
+}
+
+/*-----------------End Of Ceramic--------------*/
+
+
+
+/*-------------Sister Concern Page----------------*/
+.sister-concern-tile{
+    background-color: #333;
+    color: white;
+    height: 80px;
+    border-radius: 0;
+    padding-top: 0;
+}
+
+
+/*-----------End Of Sister Concern Page----------*/
+
+
+
+
+/*---------------- Contact Us Page -------------*/
+
+.contact-us-tile{
+    background-color: #333;
+    color: white;
+    height: 80px;
+    border-radius: 0;
+    padding-top: 0;
+}
+
+/*Address*/
+#address-container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.address1{
+    color: #333;
+}
+.address2{
+    color: 3333;
+}
+/*End Of Address*/
+
+/*Contact Form*/
+
+#contactForm form{
+    max-width: 800px;
+    margin: auto;
+}
+.form-group button.send-button{
+    background-color: #86c724;
+    border-color: #76a324;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+/*End Of Contact Form*/
+/*contact Tile*/
+.contact-tile {
+    background-color: #333;
+    border-radius: 0;
+}
+.contact-tile h3{
+    color: white;
+}
+.contact-tile h6{
+    color: white;
+}
+.contact-tile p{
+    color: #86c724;
+    display: inline;
+}
+.contact-tile h6{
+    display: block;
+}
+
+/*End Of contact Tile*/
+
+/*------------ End Of Contact Us Page-------- ---*/
